@@ -1,0 +1,91 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+
+
+@media (max-width: 320px) {
+  .container {
+    width: 330px !important;
+    max-width: 330px !important;
+  }
+
+}
+@media (max-width: 375px) {
+  .container {
+    width: 370px !important;
+    max-width: 370px;
+  }
+
+}
+
+@media (max-width: 420px) {
+  .container {
+    position: relative;
+    width: 390px !important;
+    margin: 0 auto;
+    padding: 0;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+
+  
+}
+
+@media (max-width: 480px) {
+  .container {
+    position: relative;
+    width: 484px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .teacher-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .skitter {
+    position: relative;
+    max-width: 800px;
+    height: 300px;
+    background: black;
+    overflow-x: hidden;
+  }
+  .navbar-toggler {
+    background: white !important;
+    border-radius: 0;
+    margin-right: 20px;
+    text-align: center;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .navbar-toggler i {
+    color: var(--main-color);
+  }
+  .menu-hr {
+    display: block;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
